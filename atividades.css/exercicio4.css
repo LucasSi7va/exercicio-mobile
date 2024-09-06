@@ -1,0 +1,55 @@
+header{
+   padding: 50px;
+   width: 992px;
+   margin: 0 auto;
+}
+
+.menubar{
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.container{
+    display: flex;
+   margin-top: 200px;
+}
+
+.text{
+    font-size: 20px;
+    width: 640px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+span{
+    font-size: 30px;
+    margin-left: 20px;
+   
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+span:hover{
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+

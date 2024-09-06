@@ -1,0 +1,47 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    gap: 20px; 
+    justify-items: center;
+    align-items: center; 
+    background-color: black;
+    padding: 20px; 
+    border: white; 
+    height: 100vh;
+    width: 100vw; 
+}
+
+
+aside {
+    grid-column: 1 / 2; 
+    grid-row: 1 / 2; 
+    background-color: #fff; 
+    padding: 10px; 
+    color: black; 
+}
+
+section {
+    grid-column: 2 / 4; 
+    grid-row: 1 / 4;
+    background-color: #fff; 
+    padding: 10px; 
+    color: black;
+}
+
+footer {
+    background-color: blue;
+}
+
+nav{
+    background-color: green;
+}
+
+header{
+    background-color: tomato;
+    grid-column: 1 / 4; 
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}

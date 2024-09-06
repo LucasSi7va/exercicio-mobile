@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.primeiro{
+    background-color: blue;
+    border: 2px solid black;
+   
+    text-align: center;
+    width: 250px;
+    height: 150px;
+}
+
+.segundo{
+background-color: red;
+border: 2px solid black;
+width: 300px;
+height: 200px;
+text-align: center;
+
+}
+
+.terceiro{
+    background-color: green;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: auto; 
+    }
+    
+    .primeiro, .segundo, .terceiro {
+        width: 80%; 
+    }
+}

@@ -2,7 +2,10 @@
 
 
 .atividades{
-    margin-left: 610px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .exercicio{
@@ -16,11 +19,23 @@
     background-color: red;
     color: white;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .exercicio:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: white;
+    background-color: #C71212;
 }
+
+
+
+
+
+
+
+
+
+/* exercicio 4 */
+
+
