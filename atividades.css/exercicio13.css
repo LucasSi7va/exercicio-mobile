@@ -1,0 +1,58 @@
+
+.container{
+display: flex;
+justify-content: space-around;
+margin-top: 20%;
+}
+
+
+.btn{
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+        margin-top: 10px;
+        font-style: italic;
+        text-decoration: none;
+        text-align: center;
+}
+
+
+
+@media (pointer: none) {
+    .btn {
+        background-color: blue;
+        color: black;
+    }
+    
+    .btn:hover {
+        background-color: white;
+        transform: scale(1.1);
+    }
+}
+
+
+@media (pointer: coarse) {
+    .btn {
+        background-color: black;
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: blue;
+        transform: scale(1.05);
+    }
+}
+
+@media (pointer: fine) {
+    .btn {
+        background-color: red;
+        border: 1px  solid black ;
+        color: white;
+    }
+
+    .btn:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+        background-color: #C71212; 
+    }
+}

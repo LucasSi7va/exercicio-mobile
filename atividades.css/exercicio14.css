@@ -1,0 +1,66 @@
+/* Estilos básicos para os botões */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Estilos para dispositivos que não suportam hover */
+@media (hover: none) {
+    #btn1 {
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+    }
+
+    #btn1:active {
+        color: white;
+        background-color: #C71212;
+    }
+
+    #btn2 {
+        background-color: aqua;
+        color: white;
+    }
+
+    #btn2:active {
+        background-color: blue;
+        color: white;
+
+    }
+
+}
+
+
+@media (hover: hover) {
+    #btn1 {
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+    }
+
+    #btn1:hover {
+        color: white;
+        background-color: #C71212;
+    }
+
+    #btn2 {
+        background-color: aqua;
+        color: white;
+    }
+
+    #btn2:hover {
+        background-color: blue;
+        color: white;
+    }
+}

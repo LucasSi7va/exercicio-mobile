@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5 {
+    display: none;
+}
+
+@media (max-width: 200px) {
+    h5 {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+   
+    h4 {
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+  
+    h3 {
+        display: block;
+    }
+}
+
+@media (max-width: 1000px) {
+ 
+    h2 {
+        display: block;
+    }
+}
+
+@media (max-width: 1500px) {
+  
+    h1 {
+        display: block;
+    }
+}

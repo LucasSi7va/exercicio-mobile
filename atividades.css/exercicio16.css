@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    max-width: 414px;
+    font-family: "Raleway", sans-serif;
+    background-color: #e0e0e0;
+  }
+  
+  nav {
+    background-color: #1e3a8a; /* Azul */
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+  }
+  
+  .menu-bar {
+    background-color: #1e3a8a; /* Azul */
+    width: 100%;
+    position: absolute;
+    top: 67px;
+    left: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease;
+    opacity: 0;
+    z-index: 999;
+  }
+  
+  .menu-bar.active {
+    max-height: 300px;
+    opacity: 1;
+  }
+  
+  .menu-bar p {
+    padding: 15px;
+    margin: 0;
+  }
+  
+  .menu-bar p a {
+    font-family: "Consolas", "Courier New", monospace; /* Fonte do VSCode */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-bar p a:hover {
+    text-decoration: underline;
+  }
+  
+  .material-icons {
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .material-icons:active {
+    transform: scale(1.5);
+  }
+  
+  .single-post {
+    background-color: #1e3a8a; /* Azul */
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .single-post h1, .single-post p {
+    color: #fff;
+  }
+  
+  .background {
+    background-color: #000; /* Preto */
+    padding: 20px;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .content-footer {
+    background-color: #1e3a8a; /* Azul */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content-footer h1 {
+    color: #fff;
+  }
+  
+  .contact-button {
+    padding: 12px 24px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #e64a19;
+  }
+  
+  footer {
+    background-color: #000; /* Preto */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .social-media img {
+    width: 30px;
+    margin-right: 15px;
+  }
+  
+  .footer-end {
+    background-color: #333; /* Preto escuro */
+    padding: 10px 0;
+    color: #fff;
+  }
+  
+  .information, .navegacao, .contatos {
+    margin-bottom: 20px;
+  }
+  
+  .navegacao p, .contatos p, .navegacao a, .contatos a {
+    font-family: "Consolas", "Courier New", monospace; /* Fonte do VSCode */
+    margin: 5px 0;
+  }
+  
+  .navegacao p a, .contatos p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navegacao p a:hover, .contatos p a:hover {
+    text-decoration: underline;
+  }
+  

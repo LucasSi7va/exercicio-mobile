@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    margin-top: 15%;
+  }
+  
+  @media (prefers-color-scheme: light) {
+   body{
+    background-color: white;
+   }
+   
+    .container {
+        background-color: white;
+        border-color: aqua;
+        color: black;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body{
+        background-color: black;
+    }
+
+
+    .container {
+        background-color: black;
+        border-color: white;
+        color: white;
+    }
+  }

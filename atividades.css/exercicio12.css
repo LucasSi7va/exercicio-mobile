@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+
+.responsividades{
+    display: flex;
+    flex-direction: wrap;
+}
+
+img{
+    width: 40%;
+}
+
+.foto-light{
+    display: block;
+}
+
+.foto-dark{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .responsividades {
+        flex-direction: column;
+    }
+
+}
+
+
+@media (prefers-color-scheme: light) {
+body{
+    background-color: white;
+    color: black;
+}
+
+.foto-light{
+    display: block;
+}
+
+.foto-dark{
+    display: none;
+}
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    .foto-light{
+        display: none;
+    }
+
+    .foto-dark{
+        display: block;
+    }
+
+}

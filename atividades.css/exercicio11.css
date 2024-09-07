@@ -1,0 +1,28 @@
+
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+p{
+    width: 40%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10% ;
+    gap: 30px;
+}
+
+@media (max-width: 500px) {
+header{
+    flex-direction: column;
+}
+
+
+}
